@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-import static utilities.Database_utilities.*;
+import static test_utilities.Database_utilities.*;
 
 public class TestNG_Test {
 

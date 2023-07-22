@@ -1,6 +1,9 @@
 package org.example;
 
-import static utilities.DatabaseUtilty.*;
+
+import utilities.Database_utilities;
+
+import static utilities.Database_utilities.*;
 
 public class Query09 {
     public static void main(String[] args) {
@@ -13,7 +16,7 @@ public class Query09 {
                         bu kod sadece createConnection yzarak hallederiz
          */
 
-        createConnection();
+        Database_utilities.createConnection();
 
         String sql01 = "select *  from  ogrenciler ";
         System.out.println("Sütun Isimleri: "+getColumnNames(sql01));

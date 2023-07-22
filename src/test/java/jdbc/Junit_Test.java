@@ -3,7 +3,7 @@ package jdbc;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
-import static utilities.Database_utilities.*;
+import static test_utilities.Database_utilities.*;
 
 public class Junit_Test {
     @Test

@@ -1,4 +1,4 @@
-package utilities;
+package test_utilities;
 
 import java.sql.*;
 
@@ -78,5 +78,6 @@ public class Jdbc_utilities {
         }
 
     }
+
 
 }

@@ -1,11 +1,10 @@
 package utilities;
 
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DatabaseUtilty {
+public class Database_utilities {
     private static Connection connection;
     private static Statement statement;
     private static ResultSet resultSet;

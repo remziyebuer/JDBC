@@ -28,7 +28,8 @@ public class Query01 {
         con.close();
         st.close();
         veri.close();
-
+        //baglantiyi kapatmak ypgunlik trafik icin önemli yoksa sistem kendini kapatabilir
+    //JDBC; Java DataBase Connectivity acilimi bu sekilde.
     }
 
 }

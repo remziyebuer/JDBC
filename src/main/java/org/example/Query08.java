@@ -16,10 +16,11 @@ public class Query08 {
         Statement st = con.createStatement();
 
 //       //1.Doktorlar tablosunu olusturun
-//        String sql01= "create table doktorlar " +
-//                "(id int, isim varchar(30), bolum varchar(20), ucret int)";
+       String sql01= "create table doktorlar " +
+
+               "(id int, isim varchar(30), bolum varchar(20), ucret int)";
 //
-//        st.execute(sql01);
+        st.execute(sql01);
 
         //2.Pojo class kullnarak(yardimi ile) tabloya data ekleyiniz
         List<Doctor> kayitlar = new ArrayList<>();

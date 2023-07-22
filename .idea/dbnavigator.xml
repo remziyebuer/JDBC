@@ -12,10 +12,10 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="70901573-4021-4dd1-a14f-933e11300409">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ogrenciler;
-select * from urunler;
-select * from doktorlar;]]></console>
+    <connection id="7d8b36fc-3428-4adb-aa55-0edd1f31089d">
+      <console name="JDBC" type="STANDARD" schema="public" session="Main"><![CDATA[select * from workers
+select * from urunler
+select * from doktorlar]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -25,7 +25,8 @@ select * from doktorlar;]]></console>
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="70901573-4021-4dd1-a14f-933e11300409" dataset="public.ogrenciler" active-filter-id="" />
+    <filter-actions connection-id="7d8b36fc-3428-4adb-aa55-0edd1f31089d" dataset="public.doktorlar" active-filter-id="" />
+    <filter-actions connection-id="7d8b36fc-3428-4adb-aa55-0edd1f31089d" dataset="public.workers" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
@@ -44,13 +45,13 @@ select * from doktorlar;]]></console>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="70901573-4021-4dd1-a14f-933e11300409" active="true" signed="true">
+      <connection id="7d8b36fc-3428-4adb-aa55-0edd1f31089d" active="true" signed="true">
         <database>
-          <name value="Connection" />
+          <name value="JDBC" />
           <description value="" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
-          <database-version value="14.7" />
+          <database-version value="15.3" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
@@ -63,7 +64,7 @@ select * from doktorlar;]]></console>
           <deprecated-pwd value="MTI5OQ==" />
         </database>
         <properties>
-          <auto-commit value="true" />
+          <auto-commit value="false" />
         </properties>
         <ssh-settings>
           <active value="false" />
@@ -86,7 +87,7 @@ select * from doktorlar;]]></console>
           <session-management value="true" />
           <ddl-file-binding value="true" />
           <database-logging value="true" />
-          <connect-automatically value="false" />
+          <connect-automatically value="true" />
           <restore-workspace value="true" />
           <restore-workspace-deep value="false" />
           <environment-type value="default" />

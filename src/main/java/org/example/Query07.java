@@ -18,13 +18,13 @@ public class Query07 {
         //***** pojo class isimize cok yarar
 
         //Soru: urunler adinda bir tablo olusturunuz.
-//        String sql01 ="create table urunler (id int , isim varchar(10), fiyat int)";
-//        st.execute(sql01);
+       String sql01 ="create table urunler (id int , isim varchar(10), fiyat int)";
+       st.execute(sql01);
 
         // neden resulset kullanilmiyor bu soruda diye sorabilirler cun ki biz burda veri
         // gönderiyoruz eger veri alsaydik kullanirdik
 
-        //1.adim datalari bu seklide bir kalioba koyalim
+        //1.adim datalari bu seklide bir kaliba koyalim
 
         List<Urun> kayitlar = new ArrayList<>();
         kayitlar.add(new Urun(100, "Laptop", 35000));
@@ -33,6 +33,7 @@ public class Query07 {
         kayitlar.add(new Urun(103, "Anakart", 15000));
         kayitlar.add(new Urun(104, "IMac", 15000));
         kayitlar.add(new Urun(105, "IPhone", 45000));
+
 
 
         /*

@@ -21,7 +21,7 @@ public class Database_utilities {
         }
     }
 
-    public static List<Object> getColumnData(String query, String column) {
+    public static List<Object> getColumnData(String query, String column) {//**cok önemli
         executeQuery(query);
         List<Object> rowList = new ArrayList<>();
         ResultSetMetaData rsmd;

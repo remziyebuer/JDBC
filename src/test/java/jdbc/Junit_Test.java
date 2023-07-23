@@ -11,6 +11,7 @@ public class Junit_Test {
         //Laptop isimli urunun Database de kayitli oldugunu dogrula
 
         createConnection();
+
         String sql="select * from urunler";
 
         System.out.println("getColumnNames = " + getColumnNames(sql));
